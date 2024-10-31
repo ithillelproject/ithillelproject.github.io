@@ -1,0 +1,6 @@
+.container-fluid {
+    display: flex;
+    text-align: center;
+    background-color: violet;
+    align-items: center;
+}
