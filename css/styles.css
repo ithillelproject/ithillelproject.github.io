@@ -32,6 +32,12 @@
   width: 100%;
 }
 
+.dropdown-menu {
+  opacity: 0.6;
+  padding: 2%;
+  border-radius: 1rem;
+}
+
 .from-ukraine__main-block .tours__desktop__bg {
   position: absolute;
   top: 0;

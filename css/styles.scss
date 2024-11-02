@@ -7,7 +7,7 @@
     box-sizing: border-box;
   }
   
-  .header {
+.header {
     padding: 1rem;
     display: flex;
     flex-direction: row;
@@ -15,13 +15,13 @@
     position: absolute !important;
   }
   
-  .navbar {
+.navbar {
     width: 97%;
     border-radius: 1rem;
 
   }
 
-  .nav-item {
+.nav-item {
     padding-left: 5rem;
     text-transform: uppercase;
     gap: 7rem;
@@ -29,13 +29,19 @@
   }
 
   
-  .user__authorization {
+.user__authorization {
     width: 4rem;
   }
   
-  .user__icon {
+.user__icon {
     width: 100%;
   }
+
+.dropdown-menu{
+  opacity: 0.6;
+  padding: 2%;
+  border-radius: 1rem;
+}
 
   .from-ukraine__main-block .tours__desktop__bg {
     position: absolute;
