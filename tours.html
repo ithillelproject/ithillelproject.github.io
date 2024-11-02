@@ -2,11 +2,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-    
+<body> 
+<header class="header">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar scroll</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 150px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">
+                  Головна
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./blog.html">
+                  Блог
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./tours.html">
+                  Тури
+                </a>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="user__authorization">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+         <img class="user__icon" src="./images/user_icon.png" alt="user_icon">
+        </a>
+        <ul class="dropdown-menu">
+            <li>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <div class="form">
+                    <div class="form-floating mb-3">
+                      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                      <label for="floatingInput">Email address</label>
+                    </div>
+                    <div class="form-floating">
+                      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                      <label for="floatingPassword">Password</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+        </ul>
+    </div>   
+</header>
+
+<script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

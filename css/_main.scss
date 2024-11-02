@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: $start-size-px;
+}
+
+body {
+    font-size: $start-size-rem;
+    font-family: 'Roboto' sans-serif;
+}
