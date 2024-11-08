@@ -65,10 +65,29 @@
     object-fit: cover;
     z-index: -1;
   }
-
-
-
-.footer {
-  position: relative;
-  background-color: rgb(0, 87, 183);
+  .conteiner__items{
+    width: 25%;
+    padding: 2rem;
+    text-decoration: none;
+    
+  
+  }
+  .footer__conteiner{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    background-color: rgb(0, 87, 183);
+    color:white;
+    list-style-type:  none;
+    align-items: center;
+    align-content: center;
+  }
+  
+  ul{
+    list-style-type: none;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+  
   }
