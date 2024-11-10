@@ -6,30 +6,34 @@
 }
 
 .header {
-  padding: 1rem;
+  padding: 0.5rem;
   display: flex;
   flex-direction: row;
   width: 100%;
 }
 
 .navbar {
-  width: 97%;
+  width: 100%;
   border-radius: 2rem;
   text-decoration: none;
 }
 
 .nav-link {
+  color: white;
   font-weight: bold;
   text-decoration: none;
-  color: white;
 }
 .nav-link:hover {
   color: rgb(255, 255, 255);
   text-decoration: underline;
 }
 
+#navbarScroll, .me-auto {
+  justify-content: center;
+}
+
 .nav-item {
-  padding: 0 2rem 0 6rem;
+  padding: 0 4rem 0 4rem;
   text-transform: uppercase;
   gap: 7rem;
   justify-items: center;
@@ -37,7 +41,7 @@
 }
 
 .container-fluid {
-  margin-left: 3rem;
+  margin-left: 1.5rem;
 }
 
 .user__authorization {
@@ -50,12 +54,12 @@
 }
 
 .dropdown-menu {
-  opacity: 0.6;
+  opacity: 0.8;
   padding: 2%;
   border-radius: 1rem;
 }
 
-.from-ukraine__main-block .tours__desktop__bg {
+.from-ukraine__main-block, .tours__desktop__bg {
   position: absolute;
   top: 0;
   left: 0;
@@ -64,10 +68,48 @@
   z-index: -1;
 }
 
-.conteiner__items {
-  width: 33%;
-  padding: 2rem;
-  text-decoration: none;
+.from-ukraine__main-block {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+.from-ukraine__main-text h1, .from-ukraine__main-text h2 {
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Osnova Pro";
+}
+
+.from-ukraine__main-container {
+  width: 1180px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.from-ukraine__main-text h2 {
+  font-size: 46px;
+  opacity: 0.5;
+  letter-spacing: 7.5px;
+}
+
+.from-ukraine__main-text h1 {
+  font-size: 90px;
+  letter-spacing: 0;
+  margin-top: 10px;
+}
+
+.from-ukraine__main-title {
+  height: 100;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.from-ukraine__main-text {
+  text-align: center;
 }
 
 .footer__conteiner {
@@ -78,6 +120,13 @@
   color: white;
   list-style-type: none;
   align-content: center;
+  justify-content: space-between;
+}
+
+.conteiner__items {
+  width: 33%;
+  padding: 2rem;
+  text-decoration: none;
 }
 
 ul {

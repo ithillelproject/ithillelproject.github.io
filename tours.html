@@ -7,6 +7,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/tours.css">
 </head>
 <body> 
   <header class="header">
@@ -54,7 +55,7 @@
     </nav>
     <div class="user__authorization">
         <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-         <img class="user__icon" src="./images/user_icon.png" alt="user_icon">
+         <img class="user__icon" src="./images/user_icon.svg" alt="user_icon">
         </a>
         <ul class="dropdown-menu">
             <li>
@@ -76,7 +77,114 @@
         </ul>
   </div>   
 </header>
+<section class="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <p class="heading text-center">Що таке Україна?</p>
+        <div class="line"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <p class="text">
+          <span class="first-letter">У</span>країна - це мужня та незламна держава , яка <br/>
+          розташована в самому центрі Європию. В <br/>
+          країні є все : високі гори, тепле море, просторі <br/>
+          степи, затишні села, гучні мегаполіси, <br/>
+          розкішні палаци, золотоверхі собори та <br/>
+          численні пам'ятки. <span class="first-letter">У</span>країнська кухня закохує <br/>
+          у себе вже з першої страви, а українська <br/>
+          гостинність вражає. Мабуть , не вистачить і <br/>
+          декількох років , щоб побачити та дослідити <br/>
+          кожен куточок <span class="first-letter">У</span>країни.<br/>
+        </p>
+        <a href="#footer" class="btn btn-md btn-classic mb-5 text-bg-warning" data-bs-toggle="modal" data-bs-target="#myvideo">Докладніше</a>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <img src="images/Ukraine-Carpathians.jpg" class="img-fluid rounded ukraine" alt="This is Ukraine">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="accordion-section">
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-12">
+        <p class="heading text-center">Що подивитись в Україні?</p>
+        <div class="line"></div>
+        <p class="text">В Україні десятки унікальних місць для відпочинку. Безумовно найбільшою популярністю 
+          серед туристів користується Київ - непереможна столиця<br/>
+          України. Одна з найдавніших столиць Європи зберігає понад 2000 пам'яток природи, історії та культури : Золоті Ворота,
+          Софіївський Собор, Києво-<br/> Печерська Лавра, Андріївський узвіз, Поділ. Кожен куточок столиці вражає.<br/>
+          Закохати мандрівника з першого погляду може Львів - неперевершена атмосфера старого міста, середньовічні вулички, 
+          колоритні заклади не<br/> залишать байдужим жодного туриста. А колоритна південна столиця України - Одеса змусить
+          повертатись до неї знову і знову.<br/>
+        </p>
+      </div>
+    </div>  
+  </div>
+</section>
 
+<section class="populars">
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-12">
+        <p class="heading text-center">Популярні тури</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col sm-12 md-6 lg-4">
+        <div class="card mb-3" style="width: 24rem;">
+          <img src="images/odessa.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Одеса</h5>
+            <p class="card-text">Ціна 1500грн<br/>білети+хостел</p>
+            <a href="#" class="btn btn-primary text-bg-warning">Придбати</a>
+          </div>
+        </div>
+      </div>
+      <div class="col sm-12 md-6 lg-4">
+        <div class="card mb-3" style="width: 24rem;">
+          <img src="images/kiev.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Київ</h5>
+            <p class="card-text">Ціна 1300грн<br/>білети+хостел</p>
+            <a href="#" class="btn btn-primary text-bg-warning">Придбати</a>
+          </div>
+        </div>
+      </div>
+        <div class="col sm-12 md-6 lg-4">
+          <div class="card mb-3" style="width: 24rem;">
+            <img src="images/lviv.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Львів</h5>
+              <p class="card-text">Ціна 2100грн<br/>білети+хостел</p>
+              <a href="#" class="btn btn-primary text-bg-warning">Придбати</a>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+<footer></footer>
+<div class="modal fade" id="myvideo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Відео-тур по країні</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <iframe class= "video" width="560" height="315" src="https://www.youtube.com/embed/18vr4oiwO7c?si=AcAb5KS_ByH3jRj8" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</div>
 <footer class="">
   <div class="footer__conteiner">
     <div class="conteiner__items">
