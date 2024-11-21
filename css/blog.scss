@@ -1,0 +1,99 @@
+
+.main__container {
+    background: url(../images/thum.jpg);
+    height: 10000px;
+    background-position: inherit;
+    background-size: initial;
+  }
+  
+  .container {
+  
+    color: black;
+    padding: 15px;
+    
+    width: 100%;
+   
+    opacity: 0.6;
+    border-radius: 10px;
+    font-style: inherit;
+    font-family: fangsong;
+  
+    text-align: center;
+    left: 0;
+    right: 0;
+  }
+  
+  .main-box {
+    top: 260px;
+    width: 70%;
+    height: auto;
+    margin-left: 150px;
+    margin-right: 150px;
+  
+    background: white;
+    opacity: 0.9;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .main-box__item {
+    
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+  }
+  
+  .picture {
+    border-radius: 45px;
+    padding-bottom: 10px;
+  }
+  
+  .main-box__item__title {
+    color: #1965ff;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 1rem;
+    text-align: left;
+  }
+  
+  a:hover {
+    color:   #0a3792;
+    ;
+  }
+  
+  .more__details {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 700;
+    color: #1965ff;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .main-box,
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-content: center;
+      margin: 90px;
+    }
+  }
+  
+  @media screen and (min-width: 1640px) {
+    .main-box {
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      margin: 90px;
+    }
+    .container {
+      align-content: center;
+      margin: 90px;
+    }
+  }

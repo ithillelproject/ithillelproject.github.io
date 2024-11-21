@@ -136,4 +136,7 @@ ul {
 a {
   color: white;
   text-decoration: none;
-}/*# sourceMappingURL=styles.css.map */
+  font-family: monospace;
+  font-size: 1rem;
+  text-align: left;
+} /*# sourceMappingURL=styles.css.map */

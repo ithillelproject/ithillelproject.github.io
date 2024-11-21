@@ -31,108 +31,115 @@
   }
 
   
-#navbarScroll, .me-auto {
-  justify-content: center;
-}
-
-.nav-item {
-  padding: 0 4rem 0 4rem ;
-  text-transform: uppercase;
-  gap: 7rem;
-  justify-items: center;
-  text-decoration: none;
+  #navbarScroll, .me-auto {
+    justify-content: center;
   }
-
-.container-fluid{
-  margin-left: 1.5rem;
+  
+  .nav-item {
+    padding: 0 4rem 0 4rem;
+    text-transform: uppercase;
+    gap: 7rem;
+    justify-items: center;
+    text-decoration: none;
   }
-
-.user__authorization {
-  width: 3rem;
-  margin-top: 1.5vh;
+  
+  .container-fluid {
+    margin-left: 1.5rem;
   }
-
-.user__icon {
-  width: 100%;
+  
+  .user__authorization {
+    width: 3rem;
+    margin-top: 1.5vh;
   }
-
-.dropdown-menu{
-  opacity: 0.8;
-  padding: 2%;
-  border-radius: 1rem;
+  
+  .user__icon {
+    width: 100%;
   }
-
-.from-ukraine__main-block, .tours__desktop__bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  object-fit: cover;
-  z-index: -1;
+  
+  .dropdown-menu {
+    opacity: 0.8;
+    padding: 2%;
+    border-radius: 1rem;
   }
-.from-ukraine__main-block {
+  
+  .from-ukraine__main-block, .tours__desktop__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .from-ukraine__main-block {
     display: flex;
     align-items: center;
     height: 100vh;
     position: relative;
-}
-
-.from-ukraine__main-text h1, .from-ukraine__main-text h2 {
+  }
+  
+  .from-ukraine__main-text h1, .from-ukraine__main-text h2 {
     font-weight: 600;
     color: #fff;
     text-transform: uppercase;
     font-family: "Osnova Pro";
-}
-.from-ukraine__main-container{
-  width: 1180px;
+  }
+  
+  .from-ukraine__main-container {
+    width: 1180px;
     margin-right: auto;
     margin-left: auto;
-}
-
-.from-ukraine__main-text h2 {
-  font-size: 46px;
-  opacity: .5;
-  letter-spacing: 7.5px;
-}
-.from-ukraine__main-text h1 {
-  font-size: 90px;
-  letter-spacing: 0;
-  margin-top: 10px;
-}
-.from-ukraine__main-title {
+  }
+  
+  .from-ukraine__main-text h2 {
+    font-size: 46px;
+    opacity: 0.5;
+    letter-spacing: 7.5px;
+  }
+  
+  .from-ukraine__main-text h1 {
+    font-size: 90px;
+    letter-spacing: 0;
+    margin-top: 10px;
+  }
+  
+  .from-ukraine__main-title {
     height: 100;
     display: flex;
     align-items: center;
     width: 100%;
     justify-content: center;
-}
-.from-ukraine__main-text
-  {
-    text-align: center;
-}
-
-.footer__conteiner{
-  display: flex;
-  width: 100%;
-  flex-direction: row;
-  background-color: rgb(0, 87, 183);
-  color:white;
-  list-style-type:  none;
-  align-content: center;
-  justify-content: space-between;
-
   }
-  .conteiner__items{
+  
+  .from-ukraine__main-text {
+    text-align: center;
+  }
+  
+  .footer__conteiner {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    background-color: rgb(0, 87, 183);
+    color: white;
+    list-style-type: none;
+    align-content: center;
+    justify-content: space-between;
+  }
+  
+  .conteiner__items {
     width: 33%;
     padding: 2rem;
-    text-decoration: none; 
-    }  
-
-ul{
-  list-style-type: none;
+    text-decoration: none;
   }
-
-a{
-  color: white;
-  text-decoration: none;
+  
+  ul {
+    list-style-type: none;
   }
+  
+  a {
+    color: white;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 1rem;
+    text-align: left;
+  }/*# sourceMappingURL=styles.css.map */

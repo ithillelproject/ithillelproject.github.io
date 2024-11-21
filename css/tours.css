@@ -28,10 +28,6 @@
   background-color: #FFD700;
 }
 
-.modal-body {
-  position: relative;
-}
-
 .video {
   position: absolute;
   top: 0;
