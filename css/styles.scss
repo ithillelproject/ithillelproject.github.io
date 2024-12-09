@@ -1,5 +1,3 @@
-
-
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +6,7 @@
   }
   
 .header {
-  padding: 0.5rem;
+  //padding: 0.5rem;
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -117,20 +115,17 @@
   
   .footer__conteiner {
     display: flex;
-    width: 100%;
+    // width: 100%;
     flex-direction: row;
+    // Додали wrap
+    flex-wrap: wrap;
     background-color: rgb(0, 87, 183);
     color: white;
     list-style-type: none;
-    align-content: center;
-    justify-content: space-between;
+    //align-content: center;
+    //justify-content: space-between;
   }
   
-  .conteiner__items {
-    width: 33%;
-    padding: 2rem;
-    text-decoration: none;
-  }
   
   ul {
     list-style-type: none;
@@ -141,5 +136,35 @@
     text-decoration: none;
     font-family: monospace;
     font-size: 1rem;
-    text-align: left;
+    //text-align: left;
   }/*# sourceMappingURL=styles.css.map */
+
+  .footer {
+    background-color: rgb(0, 87, 183);
+}
+
+.footer__container {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.container__items {
+    padding: 3%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 1rem;
+}
+
+h6 {
+    font-size: 1.2rem;
+    color: white;
+}

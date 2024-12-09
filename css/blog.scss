@@ -97,3 +97,33 @@
       margin: 90px;
     }
   }
+
+  .footer {
+    background-color: rgb(0, 87, 183);
+}
+
+.footer__container {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.container__items {
+    padding: 3%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 1rem;
+}
+
+h6 {
+    font-size: 1.2rem;
+    color: white;
+}
